@@ -6,18 +6,18 @@
 }
 
 header {
+    background-color: darkblue;
+    color: white;
+    height: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    background-color: darkblue;
-    height: 15vh;
 }
 
-main{
-    height: 100%;
+main {
     display: flex;
     justify-content: center;
+    height: 100%;
     margin-top: 15vh;
 }
 
@@ -25,36 +25,39 @@ header img {
     width: 10vh;
 }
 
-h5{
+h5 {
     color: darkblue;
+    position: absolute;
+    top: 35vh;
 }
 
-.form-validade {
-    height: 40vh;
-    width: 30vw;
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div-primary {
     border: 2px solid darkblue;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 40vh;
+    width: 30vw;
 }
 
 .form-validade h5 {
     margin-bottom: 5vh;
 }
 
-.form-control{
+.form-control {
     width: 25vw;
 }
 
-#btnValidate{
-    margin-top: 3vh;
+/* IDs */
+#btnValidate {
     background-color: darkblue;
-}
-
-form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin-top: 3vh;
 }
