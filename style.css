@@ -35,6 +35,7 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: black;
 }
 
 .div-primary {
