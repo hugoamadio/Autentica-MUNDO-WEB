@@ -18,7 +18,7 @@ main {
     display: flex;
     justify-content: center;
     height: 100%;
-    margin-top: 15vh;
+
 }
 
 header img {
@@ -39,6 +39,7 @@ form {
 }
 
 .div-primary {
+    margin-top: 15vh;
     border: 2px solid darkblue;
     border-radius: 15px;
     display: flex;
@@ -61,4 +62,30 @@ form {
 #btnValidate {
     background-color: darkblue;
     margin-top: 3vh;
+}
+
+.btn-simple{
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    width: 10vw;
+}
+
+.btn-simple-exit{
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    width: 10vw;
+}
+
+.w-i{
+    width: 25vw;
+}
+
+.w-b{
+    width: 15vw;
+}
+
+form button{
+    margin-top: 5vh;
 }
